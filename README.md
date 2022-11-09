@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## overview
 
-## Getting Started
+Firstly, thank you for your time ,this is a project for hackathon Social Hour based on rss3 protocal.We use rss3 protocal to collection some data like transactions and social posts.
+And then we analyze those data , we convert token unit to USD using real-time rate api.Furthermore we analyze the swap protocal network percent.Finnaly we display those data into some pie chart.
+Our user can have a clear understaning of current address or ens by using our tool.I hope you like it.
+![alt ""](/public/rss3.png)
 
-First, run the development server:
+## tech stack
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- rss3 protocal
+- tailwindcss
+- react.js
+- next.js
+- chart.js
+- daisyUI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## references
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+> front-end url
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<https://hackathon-rss3-ayden-lee.vercel.app/>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+> rss3
 
-## Learn More
+<https://pregod.rss3.dev>
 
-To learn more about Next.js, take a look at the following resources:
+> token to USD rate api
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<http://api.coinlayer.com>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> yourtube showup
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<https://youtu.be/A9XdxkXS78Q>
