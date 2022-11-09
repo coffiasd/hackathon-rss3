@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.6.1",
+    "api": "^5.0.1",
     "chart.js": "^3.9.1",
+    "chartjs-plugin-autocolors": "^0.0.7",
+    "chartjs-plugin-datalabels": "^2.1.0",
+    "d3-scale-chromatic": "^3.0.0",
     "daisyui": "^2.31.0",
     "ethers": "^5.7.1",
     "faker": "^5.5.3",
@@ -20,7 +24,9 @@
     "react-countup": "^6.3.1",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
-    "wagmi": "^0.6.7"
+    "react-loading": "^2.0.3",
+    "wagmi": "^0.6.7",
+    "websocket": "^1.0.34"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",

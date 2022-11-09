@@ -9,9 +9,8 @@ export default function Stats() {
         keepAfterRouteChange: false
     }
 
-    alertService.info("hahah111", options);
     return (
-        <div className="stats shadow w-7/12">
+        <div className="stats shadow w-auto">
             <div className="stat">
                 <div className="stat-figure text-primary">
                     <FaEthereum size="2rem" />
